@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{DE264906-FBE8-4886-902C-A649F36E8D0F}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Universe_Wars</RootNamespace>
+    <AssemblyName>Universe Wars</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>f252290c-d4a4-43df-b468-f17adba537b0</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3624A33F60812ABBBEE1E416C2D6598FBC0DFAF5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Universe Wars_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Behaviors\Controller\IController.cs" />
+    <Compile Include="Behaviors\Controller\KeyboardMouseBehavior.cs" />
+    <Compile Include="Behaviors\Dieing\DieDropUpgrade.cs" />
+    <Compile Include="Behaviors\Dieing\DieExplode.cs" />
+    <Compile Include="Behaviors\Dieing\DieLoseLive.cs" />
+    <Compile Include="Behaviors\Dieing\DieNothingHappens.cs" />
+    <Compile Include="Behaviors\Dieing\IDieBehavior.cs" />
+    <Compile Include="Behaviors\Dieing\MultipleDieBehaviorsComposite.cs" />
+    <Compile Include="Behaviors\Fading\DoNotFade.cs" />
+    <Compile Include="Behaviors\Fading\FadeOutExponentialFast.cs" />
+    <Compile Include="Behaviors\Fading\FadeOutLinearSlow.cs" />
+    <Compile Include="Behaviors\Fading\IFadeBehavior.cs" />
+    <Compile Include="Behaviors\Flying\DontFly.cs" />
+    <Compile Include="Behaviors\Flying\FlyDiagonal.cs" />
+    <Compile Include="Behaviors\Flying\FlyInDirection.cs" />
+    <Compile Include="Behaviors\Flying\FlyScrollSpeed.cs" />
+    <Compile Include="Behaviors\Flying\FlySine.cs" />
+    <Compile Include="Behaviors\Flying\FlyTowardsObject.cs" />
+    <Compile Include="Behaviors\Flying\FlyWithDrag.cs" />
+    <Compile Include="Behaviors\Flying\FlyZigZag.cs" />
+    <Compile Include="Behaviors\Flying\IFlyBehavior.cs" />
+    <Compile Include="Behaviors\Flying\MultipleFlyBehaviorComposite.cs" />
+    <Compile Include="Behaviors\Shooting\ShootBomb.cs" />
+    <Compile Include="Behaviors\Shooting\ShootGuidedMissiles.cs" />
+    <Compile Include="Behaviors\Shooting\ShootLasers.cs" />
+    <Compile Include="Behaviors\Shooting\ShootNothing.cs" />
+    <Compile Include="Behaviors\Shooting\IShootBehavior.cs" />
+    <Compile Include="Behaviors\Shooting\ShootBullets.cs" />
+    <Compile Include="Behaviors\Shooting\ShootRockets.cs" />
+    <Compile Include="DrawingLayers.cs" />
+    <Compile Include="GameObjects\Background.cs" />
+    <Compile Include="GameObjects\Flying\FlyingGameObject.cs" />
+    <Compile Include="GameObjects\Flying\Living\Enemies\Chure.cs" />
+    <Compile Include="GameObjects\Flying\Living\Enemies\Enemy.cs" />
+    <Compile Include="GameObjects\Flying\Living\Enemies\Sinode.cs" />
+    <Compile Include="GameObjects\Flying\Living\Enemies\Thege.cs" />
+    <Compile Include="GameObjects\Flying\Projectiles\Bomb.cs" />
+    <Compile Include="GameObjects\Flying\Projectiles\Bullet.cs" />
+    <Compile Include="GameObjects\Flying\Projectiles\GuidedMissile.cs" />
+    <Compile Include="GameObjects\Flying\Projectiles\LaserBeam.cs" />
+    <Compile Include="GameObjects\Flying\Projectiles\Rocket.cs" />
+    <Compile Include="GameObjects\Flying\Projectiles\Projectile.cs" />
+    <Compile Include="GameObjects\Flying\StartPositionHelper.cs" />
+    <Compile Include="GameObjects\Flying\Upgrades\GuidedMissileLauncher.cs" />
+    <Compile Include="GameObjects\Flying\Upgrades\Laser.cs" />
+    <Compile Include="GameObjects\Flying\Upgrades\RocketLauncher.cs" />
+    <Compile Include="GameObjects\Flying\Upgrades\Upgrade.cs" />
+    <Compile Include="GameObjects\GameObject.cs" />
+    <Compile Include="GameObjects\UI\Crosshair.cs" />
+    <Compile Include="GameObjects\UI\HealthBar.cs" />
+    <Compile Include="GameObjects\UI\HealthBarInside.cs" />
+    <Compile Include="GameObjects\UI\Live.cs" />
+    <Compile Include="GameObjects\UI\UIGameObject.cs" />
+    <Compile Include="States\GameState.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="GameObjects\Flying\Living\LivingGameObject.cs" />
+    <Compile Include="GameObjects\Flying\Living\PlayerShip.cs" />
+    <Compile Include="States\LevelState.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Resources\FontLoader.cs" />
+    <Compile Include="Resources\TextureLoader.cs" />
+    <Compile Include="States\LivingGameObjectState.cs" />
+    <Compile Include="States\ProjectileState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Universe WarsContent\Universe WarsContent.contentproj">
+      <Name>Universe_WarsContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Universe Wars_TemporaryKey.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

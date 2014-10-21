@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Universe_Wars.KeyboardMouseBehavior" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAQAAIACAAAAABEAAAQA=</HashCode>
+      <FileName>Behaviors\Controller\KeyboardMouseBehavior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.DieDropUpgrade" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Dieing\DieDropUpgrade.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.DieExplode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Dieing\DieExplode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.DieLoseLive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Dieing\DieLoseLive.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.DieNothingHappens" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Dieing\DieNothingHappens.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.MultipleDieBehaviorsComposite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAgAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Dieing\MultipleDieBehaviorsComposite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.DoNotFade" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Fading\DoNotFade.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.FadeOutExponentialFast" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Fading\FadeOutExponentialFast.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.FadeOutLinearSlow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Fading\FadeOutLinearSlow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.DontFly" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Behaviors\Flying\DontFly.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.FlyDiagonal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAABAAAAAAA=</HashCode>
+      <FileName>Behaviors\Flying\FlyDiagonal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.FlyInDirection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAABAAAAAAA=</HashCode>
+      <FileName>Behaviors\Flying\FlyInDirection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.FlyScrollSpeed" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAABAAAAAAA=</HashCode>
+      <FileName>Behaviors\Flying\FlyScrollSpeed.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.FlySine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAABAAIAAAAAAAAAAAAAAAAAQBAAAgAABAAAAAAA=</HashCode>
+      <FileName>Behaviors\Flying\FlySine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.FlyTowardsObject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAABAAABAABAAAAABA=</HashCode>
+      <FileName>Behaviors\Flying\FlyTowardsObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.FlyWithDrag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAABAAAAAAA=</HashCode>
+      <FileName>Behaviors\Flying\FlyWithDrag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.FlyZigZag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAIAAAAAAAAAAAAAAAAAQBAAABAABAAAAAAA=</HashCode>
+      <FileName>Behaviors\Flying\FlyZigZag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.MultipleFlyBehaviorComposite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Behaviors\Flying\MultipleFlyBehaviorComposite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.ShootBomb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Shooting\ShootBomb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.ShootBullets" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Shooting\ShootBullets.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.ShootGuidedMissiles" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Shooting\ShootGuidedMissiles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.ShootLasers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Shooting\ShootLasers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.ShootNothing" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Shooting\ShootNothing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.ShootRockets" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Shooting\ShootRockets.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Universe_Wars.Game1" Collapsed="true">
+    <Position X="46" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAAAAAiAAACAAAAAASQJAABQCAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Background" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.FlyingGameObject" Collapsed="true">
+    <Position X="24" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASIAAAAAABAAAAAAQAEBAQAAAQwIACACAIAAAAYAAA=</HashCode>
+      <FileName>GameObjects\Flying\FlyingGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Chure" Collapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Living\Enemies\Chure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Enemy" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Living\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Sinode" Collapsed="true">
+    <Position X="18.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Living\Enemies\Sinode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Thege" Collapsed="true">
+    <Position X="14" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Living\Enemies\Thege.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.LivingGameObject" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAQIAABAEgAAACGEAABAAAgABAEAAABAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Living\LivingGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.PlayerShip" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAEAAAAAAAAAAAAEUAEAAAAAEAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Living\PlayerShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Bomb" Collapsed="true">
+    <Position X="27.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Projectiles\Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Bullet" Collapsed="true">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Projectiles\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.GuidedMissile" Collapsed="true">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Projectiles\GuidedMissile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.LaserBeam" Collapsed="true">
+    <Position X="34.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIBAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Projectiles\LaserBeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Projectile" Collapsed="true">
+    <Position X="32" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAIAAAAAAAEACAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Projectiles\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Rocket" Collapsed="true">
+    <Position X="36.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Projectiles\Rocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.StartPositionHelper" Collapsed="true">
+    <Position X="47.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAgACAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\StartPositionHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.GuidedMissileLauncher" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Upgrades\GuidedMissileLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Laser" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Upgrades\Laser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.RocketLauncher" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Upgrades\RocketLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Upgrade" Collapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Flying\Upgrades\Upgrade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.GameObject" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQABQgIQoAwAAQAAEABAIAABAAEAAIAgAgAQAA=</HashCode>
+      <FileName>GameObjects\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Crosshair" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\UI\Crosshair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.HealthBar" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAA=</HashCode>
+      <FileName>GameObjects\UI\HealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.HealthBarInside" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\UI\HealthBarInside.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Live" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAACBAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\UI\Live.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.UIGameObject" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>GameObjects\UI\UIGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Level" Collapsed="true">
+    <Position X="39" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABZAAAAIQQAACoAhAECADAAAAAGAAEAAIQAAFAAAAAE=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Player" Collapsed="true">
+    <Position X="44.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAIAAAAAAAAACAAAQAAAACAAAACAAAAAEAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.Program" Collapsed="true">
+    <Position X="46" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.FontLoader" Collapsed="true">
+    <Position X="44.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAiAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Resources\FontLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Universe_Wars.TextureLoader" Collapsed="true">
+    <Position X="39" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resources\TextureLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Universe_Wars.DrawingLayers" Collapsed="true">
+    <Position X="39" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAIQAAAAAAAAAAAAAAAAAEAAEAAAAAgAAAAEAA=</HashCode>
+      <FileName>DrawingLayers.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Universe_Wars.IController" Collapsed="true">
+    <Position X="39" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAABAAAAQA=</HashCode>
+      <FileName>Behaviors\Controller\IController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Universe_Wars.IDieBehavior" Collapsed="true">
+    <Position X="40.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Dieing\IDieBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Universe_Wars.IFadeBehavior" Collapsed="true">
+    <Position X="42.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Fading\IFadeBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Universe_Wars.IFlyBehavior" Collapsed="true">
+    <Position X="44.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Behaviors\Flying\IFlyBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Universe_Wars.IShootBehavior" Collapsed="true">
+    <Position X="46" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\Shooting\IShootBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Universe_Wars.GameState" Collapsed="true">
+    <Position X="39" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Universe_Wars.LevelState" Collapsed="true">
+    <Position X="40.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\LevelState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Universe_Wars.LivingGameObjectState" Collapsed="true">
+    <Position X="42.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAA=</HashCode>
+      <FileName>States\LivingGameObjectState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Universe_Wars.ProjectileState" Collapsed="true">
+    <Position X="44.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>States\ProjectileState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
